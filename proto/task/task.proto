@@ -3,7 +3,7 @@ syntax = "proto3";
 package task;
 
 import "google/protobuf/empty.proto";
-option go_package = "github.com/Retual004/project-protos/proto/task";
+option go_package = "github.com/Retual004/project-protos/proto/task;task";
 
 // Сущность задача
 message Task {
